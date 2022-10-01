@@ -1,0 +1,153 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #F4F9FF;
+  color: #333333;
+  font-size: 0.875rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+#global-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  #global-container {
+    max-width: 95%;
+  }
+}
+
+header {
+  padding-top: 60px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  header {
+    padding-top: 30px;
+  }
+}
+header .site-title {
+  width: 160px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+header .site-title a {
+  display: block;
+}
+
+.mainvisual {
+  margin-bottom: 30px;
+}
+
+.index {
+  background-color: #FFFFFF;
+  padding: 60px 0;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .index {
+    padding: 30px 0;
+  }
+}
+.index__inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .index__inner {
+    padding: 0 20px;
+  }
+}
+.index__title {
+  margin-bottom: 30px;
+}
+.index__list {
+  padding-left: 0;
+  margin-left: 20px;
+}
+.index__list li {
+  margin-bottom: 20px;
+}
+.index__list li:last-child {
+  margin-bottom: 0;
+}
+
+.detail {
+  margin-bottom: 40px;
+}
+.detail__inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .detail__inner {
+    padding: 0 20px;
+  }
+}
+.detail__title {
+  padding-bottom: 30px;
+}
+.detail__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1024px) {
+  .detail__contents {
+    flex-direction: column;
+  }
+}
+.detail__contents img {
+  width: 200px;
+}
+@media screen and (max-width: 1024px) {
+  .detail__contents img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.detail__text {
+  padding-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .detail__text {
+    padding-left: 0;
+  }
+}
+.detail__text h3 {
+  margin-bottom: 15px;
+}
+.detail__text dl {
+  border-top: solid 1px #333333;
+  border-bottom: solid 1px #333333;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.detail__text dl dt {
+  width: 25%;
+}
+.detail__text dl dd {
+  width: 75%;
+}
+.detail__text p {
+  margin-bottom: 20px;
+}
+.detail__text a {
+  color: #333333;
+}
+.detail__text a:hover {
+  opacity: 0.7;
+}
+
+.footer__inner {
+  max-width: 600px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
